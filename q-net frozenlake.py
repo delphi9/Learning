@@ -1,8 +1,12 @@
+## 모두를 위한 RL 강좌
+
+
 import gym
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
+## error code : AVX AVX2, 바젤 미사용시 구동는 코드
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
